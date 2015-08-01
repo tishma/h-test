@@ -1,4 +1,6 @@
 <?php
+use NotificationsDemo\EmailMessage;
+use NotificationsDemo\SmsMessage;
 
 /**
  * Created by PhpStorm.

@@ -1,4 +1,5 @@
 <?php
+use NotificationsDemo\AbstractNotification;
 
 /**
  * Created by PhpStorm.

@@ -1,4 +1,5 @@
 <?php
+namespace NotificationsDemo;
 
 /**
  * Created by PhpStorm.
@@ -12,6 +13,10 @@ abstract class AbstractNotification
     protected $emailSubjectTemplate;
     protected $emailBodyTemplate;
 
+    /**
+     * @param $data
+     * @return $this
+     */
     public function createSmsMessage($data)
     {
         $smsContent = $this->simpleRenderTemplate($this->smsTemplate, $data);

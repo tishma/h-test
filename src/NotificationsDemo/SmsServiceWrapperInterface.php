@@ -1,4 +1,5 @@
 <?php
+namespace NotificationsDemo;
 
 /**
  * Created by PhpStorm.
